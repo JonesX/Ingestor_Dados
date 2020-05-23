@@ -44,10 +44,10 @@ def cut_send(name):
                 json_imagem = {
                     "nome_arquivo":name,
                     "projection_ref":ds.GetProjectionRef(),
-                    "x_origin":xOrigin,
-                    "y_origin":yOrigin,
-                    "px_w":px_w,
-                    "px_h":px_h,
+                    "xOrigin":xOrigin,
+                    "yOrigin":yOrigin,
+                    "pXw":px_w,
+                    "pXh":px_h,
                     "X0":x0,
                     "Y0":y0,
                     "imagem":dumps(imageCropped)
